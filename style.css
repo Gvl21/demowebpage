@@ -1,0 +1,126 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+* {
+  margin: 0;
+  font-size: 1.1em;
+  font-family: 'Nanum Gothic', sans-serif;
+  
+  
+}
+
+body{
+  background-color: #ddd;
+  color: #222;
+
+  
+}
+
+
+.main_header{
+  width: 40vw;
+  background-color: #bbb;
+  height: 50vh;
+  margin-top: 20px;  
+  margin-left: 29vw;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  
+}
+
+.side_header{
+  width: 80vw;  
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin: 30px 10vw;
+  position: sticky;
+  top: 5vh;
+  z-index: 1;
+
+}
+
+.sh{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bbb;
+  border-radius: 100%;
+}
+.bottom_header{
+  margin-top: 12vh;
+  background-color: olive;
+  width: 100vw;
+  height: 30vh;
+  text-align: center;
+
+}
+
+.page{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.page_head{
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+ 
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+  }
+
+.page_script{
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px;
+  font-size: 2vh;
+  font-weight: 700;
+  gap: 50px;
+}
+.ph1{
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/20/12/51/mobile-605422_1280.jpg);
+  min-height: 100%;
+}
+.ph2{
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/12/19/16/newspaper-154444_1280.png);
+  min-height: 100%;
+}
+.ph3{
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg);
+  min-height: 100%;
+}
+.ph4{
+  background-image: url(https://cdn.pixabay.com/photo/2014/10/12/12/38/google-485611_1280.jpg);
+  min-height: 100%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 48;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
